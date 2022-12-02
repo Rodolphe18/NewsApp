@@ -1,4 +1,4 @@
-package com.francotte.newsapp.fragment
+package com.francotte.newsapp.ui.fragment
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import com.francotte.newsapp.R
 
 
-class NewsFragment : Fragment(R.layout.fragment_news) {
+class DetailsFragment : Fragment(R.layout.fragment_details) {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -19,7 +19,8 @@ class NewsFragment : Fragment(R.layout.fragment_news) {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_news, container, false)
+        return inflater.inflate(R.layout.fragment_details, container, false)
     }
+
 
 }

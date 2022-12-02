@@ -1,4 +1,4 @@
-package com.francotte
+package com.francotte.newsapp
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp
